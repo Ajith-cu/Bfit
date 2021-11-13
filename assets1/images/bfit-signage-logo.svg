@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="344.5" height="152.43" viewBox="0 0 344.5 152.43">
+  <g id="bfit-signage-logo" transform="translate(-281 -302.677)">
+    <g id="Component_6_1" data-name="Component 6 – 1" transform="translate(466.5 332)">
+      <text id="Bfit_s_Signage" data-name="Bfit&apos;s
+Signage" transform="translate(0 38)" font-size="40" font-family="Raleway-ExtraBold, Raleway" font-weight="800"><tspan x="0" y="0">Bfit&apos;s</tspan><tspan x="0" y="47">Signage</tspan></text>
+    </g>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(281 302.677)">
+      <g id="Layer_7" data-name="Layer 7">
+        <path id="Path_140" data-name="Path 140" d="M152.43,27.47V125A27.47,27.47,0,0,1,125,152.43H104.88a38.108,38.108,0,1,0,0-76.215l-57.33.005A38.11,38.11,0,1,1,47.55,0H125a27.47,27.47,0,0,1,27.43,27.47Z" fill="#21e09d"/>
+        <path id="Path_141" data-name="Path 141" d="M143,114.32a38.1,38.1,0,0,1-38.1,38.11H27.47A27.47,27.47,0,0,1,0,125V27.47A27.47,27.47,0,0,1,27.47,0H47.55a38.11,38.11,0,1,0,0,76.22h57.33A38.1,38.1,0,0,1,143,114.32Z" fill="#002d70"/>
+        <path id="Path_142" data-name="Path 142" d="M73.79,38.11A26.24,26.24,0,1,1,47.55,11.87,26.24,26.24,0,0,1,73.79,38.11Z" fill="#fff"/>
+        <path id="Path_143" data-name="Path 143" d="M131.11,114.33a26.24,26.24,0,1,1-26.24-26.24A26.24,26.24,0,0,1,131.11,114.33Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

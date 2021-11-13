@@ -1,0 +1,10 @@
+<svg id="icons8_instagram" xmlns="http://www.w3.org/2000/svg" width="36.001" height="36" viewBox="0 0 36.001 36">
+  <path id="Union_22" data-name="Union 22" d="M23.84,36H10a9.677,9.677,0,0,1-1.879-.18l-.271-.06H7.841a9.49,9.49,0,0,1-2.021-.679q-.3-.135-.6-.3A10.17,10.17,0,0,1,3.63,33.69a10.411,10.411,0,0,1-1.2-1.18,9.733,9.733,0,0,1-.769-1.01A9.088,9.088,0,0,1,.75,29.779,8.741,8.741,0,0,1,.311,28.44,9.372,9.372,0,0,1,0,26V10A10.281,10.281,0,0,1,.17,8.15c.05-.231.1-.461.159-.68a9.3,9.3,0,0,1,.79-2.051A10.7,10.7,0,0,1,1.73,4.391,10.046,10.046,0,0,1,7.75.26,9.83,9.83,0,0,1,10,0H26a10.042,10.042,0,0,1,9.27,6.259,8.315,8.315,0,0,1,.4,1.22,9.162,9.162,0,0,1,.32,2.051c.011.15.011.31.011.47V26a9.889,9.889,0,0,1-1.721,5.591c-.139.21-.289.41-.439.6a9.786,9.786,0,0,1-1.46,1.49,10.281,10.281,0,0,1-1.5,1.04c-.22.119-.439.24-.67.34s-.461.209-.7.3a9.572,9.572,0,0,1-1.38.411,8.018,8.018,0,0,1-.98.159H27.14A8.672,8.672,0,0,1,26,36Z" transform="translate(0)"/>
+  <g id="Group_3931" data-name="Group 3931" transform="translate(5 5)">
+    <path id="Path_133" data-name="Path 133" d="M30,11H18a6.957,6.957,0,0,0-7,7V30a6.957,6.957,0,0,0,7,7H30a6.957,6.957,0,0,0,7-7V18A6.957,6.957,0,0,0,30,11Z" transform="translate(-11 -11)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="1" cy="1" r="1" transform="translate(19.148 4)" fill="#fff"/>
+  </g>
+  <g id="Group_3932" data-name="Group 3932" transform="translate(12.148 12)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="6" cy="6" r="6" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

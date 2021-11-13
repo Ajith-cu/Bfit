@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115.455" height="115.362" viewBox="0 0 115.455 115.362">
+  <g id="lg-icon" transform="translate(-7530 -4230)">
+    <path id="Path_680" data-name="Path 680" d="M57.729,115.362A57.681,57.681,0,1,0,0,57.7a57.7,57.7,0,0,0,57.729,57.666" transform="translate(7530 4230)" fill="#c00c3f"/>
+    <g id="Group_4080" data-name="Group 4080" transform="translate(7539.415 4239.352)">
+      <path id="Path_681" data-name="Path 681" d="M33.849,10.84V61.452H49.934V56.9H38.484V10.84ZM17.733,24.651a6.922,6.922,0,1,0-6.913-6.913,6.922,6.922,0,0,0,6.913,6.913" transform="translate(12.146 12.183)" fill="#fff"/>
+      <path id="Path_682" data-name="Path 682" d="M53.773,3.191q-1.149-.052-2.3-.066a48.312,48.312,0,1,0,48.3,48.317V49.3H65.268V53.74H95.174c0,.1,0,.569-.018.694A43.788,43.788,0,0,1,20.5,82.4,43.781,43.781,0,0,1,51.472,7.656c.5,0,1.736,0,2.3.033v-4.5Z" transform="translate(-3.146 -3.125)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
