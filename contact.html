@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/images/favicon.ico"
+    />
+    <title>BFIT - Business & Food Information Technology</title>
+    <link rel="stylesheet" href="../bfitds/assets/css/screen.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-210777014-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-210777014-1");
+    </script>
+  </head>
+  <body>
+    <nav style="background-color: #fff; position: sticky;" class="fixed">
+      <div class="container">
+        <div class="navbar">
+          <h1 class="logo">
+            <a href="./index.html"
+              ><img src="./assets/images/logo-dark.svg"/><img
+                class="scroll"
+                src="./assets/images/logo-dark.svg"
+            /></a>
+          </h1>
+          <button class="mobile-menu">
+            <img src="./assets/images/gg_menu.svg" />
+          </button>
+          <ul>
+            <li>
+              <a style="color: #000;" href="#" data-scroll="top">Home</a>
+            </li>
+            <li>
+              <a style="color: #000;" href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a style="color: #000;" href="./service.html">Services</a>
+            </li>
+            <li>
+              <a style="color: #000;" href="./product.html">Product</a>
+            </li>
+            <li>
+              <a style="color: #000;" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper" style="margin-top: 100px">
+      <section class="contactus" id="contact" data-anchor="contact" style="padding-top: 0;">
+        <div class="container">
+          <div class="contact-form">
+            <h5>Contact Us</h5>
+            <p class="contact-tab">
+              <span>Web & App Development</span><span>Digital Signage</span
+              ><span>Digital Marketing</span>
+            </p>
+            <form id="frm-contact">
+              <div class="form-group">
+                <input
+                  required
+                  id="firstName"
+                  type="text"
+                  class="form-control"
+                  placeholder="First Name*"
+                />
+                <input
+                  required
+                  id="lastName"
+                  type="text"
+                  class="form-control"
+                  placeholder="Last Name*"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  required
+                  id="emailAddress"
+                  type="email"
+                  class="form-control"
+                  placeholder="Email*"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  id="phoneNumber"
+                  type="tel"
+                  class="form-control"
+                  placeholder="(+61) 5462 3254 25"
+                />
+              </div>
+              <div class="form-group m-b-10">
+                <textarea
+                  required
+                  id="mailBody"
+                  class="form-control"
+                  placeholder="How we can help you*"
+                ></textarea>
+              </div>
+              <div
+                class="form-group m-b-10 m-l-0"
+                id="mailResponse"
+                style="display: none"
+              >
+                Thank you!
+              </div>
+              <div class="form-group m-b-10 m-l-0">
+                <p>
+                  By sending this form I confirm that I have read and
+                  <br />accept bfit <a href="http://">Privacy Policy</a>
+                </p>
+              </div>
+              <button class="btn-form">Send</button>
+            </form>
+          </div>
+          <div class="contact-card">
+            <h5>Contact</h5>
+            <h6>Address</h6>
+            <p>
+              BFIT TECHNOLOGY PTY LTD<br />
+              85 Liverpool St,<br />
+              Hobart, 7000<br />
+            </p>
+            <!-- <h6>ABN : 36 651 307 541</h6>
+            <h6>ACN : 651 307 541</h6> -->
+
+            <h6>Say Hello</h6>
+            <p>
+              <a href="mailto:hello@bfit.technology">hello@bfit.technology</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer style="background: #002d70">
+        <div class="container">
+          <div class="footer-wrap">
+            <figure><img src="./assets/images/logo.svg" /></figure>
+            <div class="footer-copyright">
+              <h6>Follow Us</h6>
+              <div class="social">
+                <a href="https://www.facebook.com/bfit.aus" target="_blank"
+                  ><img src="./assets/images/icons8_facebook_circled.svg"
+                /></a>
+                <a
+                  href="https://www.instagram.com/bfit_australia/"
+                  target="_blank"
+                  ><img src="./assets/images/icons8_instagram.svg"
+                /></a>
+                <!-- <a href="#"
+                  ><img src="./assets/images/icons8_twitter_circled.svg"
+                /></a> -->
+                <a
+                  href="https://www.linkedin.com/company/bfitaustralia"
+                  target="_blank"
+                  ><img src="./assets/images/icons8_linkedin_circled.svg"
+                /></a>
+                <!-- <a href="#"><img src="./assets/images/icons8_play_button.svg"></a> -->
+              </div>
+            </div>
+          </div>
+          <p class="text-c">
+            © 2021 BFIT Technology <span>|</span> All rights reserved.
+            <span>|</span><a href="http://">Privacy Policy</a>
+          </p>
+
+          <!-- </span><a href="http://">Terms Of Use</a><span>|</span><a href="http://">Terms And Conditions</a><span> -->
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

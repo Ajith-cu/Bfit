@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/images/favicon.ico"
+    />
+    <title>BFIT - Digital Signage</title>
+    <link rel="stylesheet" href="../bfitds/assets/css/screen.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-210777014-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-210777014-1");
+    </script>
+    <style>.banner{
+  /* background: url("../images/banner-bg.jpg") no-repeat center center; */
+  background-size: cover;
+  position: relative;
+  padding-top: 0;
+  }
+  .banner:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    content: "";
+    background-color: rgba(90, 88, 88, 0.65);
+  }
+  </style>
+  </head>
+  <body>
+    <nav class="fixed">
+      <div class="container">
+        <div class="navbar">
+          <h1 class="logo">
+            <a href="./index.html"
+              ><img class="scroll" src="../bfitds/assets/images/logo-dark.svg"
+            /></a>
+          </h1>
+          <button class="mobile-menu">
+            <img src="../bfitds/assets/images/gg_menu.svg" />
+          </button>
+          <ul>
+            <li>
+              <a href="#" data-scroll="top">Home</a>
+            </li>
+            <li>
+              <a href="./about.html" >About Us</a>
+            </li>
+            <li>
+              <a href="./service.html">Services</a>
+            </li>
+            <li>
+              <a href="./product.html">Product</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <section class="banner" style="background: url(./assets/images/product_banner.png) !important;" id="top" data-anchor="top">
+        
+        <div class="container">
+          <!-- <div class="breadcrumbs"><a href="">Home</a> / Signage</div> -->
+          <div class="banner-content">
+            <figure><img src="./assets/images/Frame.png" /></figure>
+            <h2 style="color: #21E09D;">
+              Manage your signage <br />
+              from one place
+            </h2>
+            <p style="color: #fff;">
+              BFIT’s Digital Signage application is built with simplicity in
+              mind. It’s never been easier deploying a signage solution in your
+              business. It’s as easy as 1.sign up 2. set up your devices and 3.
+              images and deploy it to your screens. It’s modern, cloud based,
+              affordable, flexible and scalable with your business as you grow.
+            </p>
+
+            <button id="myBtn" class="btn-primary">Book For A Demo</button>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about" data-anchor="about">
+        <div class="container d-f justfy-sp align-c">
+          <div>
+            <h3>About BFIT DS</h3>
+            <h4>Greater Flexibility with Digital <br />Menu Boards</h4>
+            <p>
+              BFIT Digital Signage allows you to engage with your customers.
+              Whether you are in quick service, hospitality, retail or any other
+              industry (hospitals, venues etc), our solution will work for you.
+              Implementation is quick and easy, and management is even easier.
+            </p>
+            <p>
+              Managing menu board content, scheduling your playlist and
+              deploying has never been easier. Our intuitive design makes it
+              easier to sign up and set your business with digital signage
+              solution across your business. Whether you are a single site
+              operator or a multisite operator, you can manage your screens and
+              content from a single point.
+            </p>
+          </div>
+          <figure><img src="../bfitds/assets/images/about-image.jpg" /></figure>
+        </div>
+        <div class="container d-f justfy-sp">
+          <div style="padding-right: 10px">
+            <h3 style="font-size: 20px; font-weight: bold">Manage Content</h3>
+            <p>
+              Upload your own content (or let us design the content for you)
+              into the library. We have flexible folder structure for you to
+              manage your content.
+            </p>
+            <h3 style="font-size: 20px; font-weight: bold">Add your Venue</h3>
+            <p>
+              Simply create your venue. The only important thing here to manage
+              is <br />
+              your time zone so the scheduling works the way you want it to
+              work.
+            </p>
+            <h3 style="font-size: 20px; font-weight: bold">Add your devices</h3>
+            <p>
+              Whether you want to display vertically or horizontally, BFIT DS
+              gives <br />
+              you the flexibility to set up the screen the way you want it.
+            </p>
+            <h3 style="font-size: 20px; font-weight: bold">
+              Group your devices
+            </h3>
+            <p>
+              If you are a multi site operator, you can group your devices that
+              play <br />
+              similar content across different locations, making the management
+              of playlists easier for you.
+            </p>
+          </div>
+          <div>
+            <h3 style="font-size: 20px; font-weight: bold">Create playlists</h3>
+            <p>
+              Create a playlist by adding images from your library. You can
+              specify individual play time for each image in a playlist. Assign
+              the playlist to a device group.
+            </p>
+            <h3 style="font-size: 20px; font-weight: bold">
+              Schedule your playlist
+            </h3>
+            <p>
+              You can schedule your playlist and decide the time of the day you
+              want to play them and on which devices or groups.
+            </p>
+            <h3 style="font-size: 20px; font-weight: bold">Live monitoring</h3>
+            <p>
+              We also give you the ability to monitor live, so you can view the
+              contents and see what is currently being played at each device in
+              a store.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="howitsworks text-c" id="service" data-anchor="service">
+        <div class="container">
+          <h4>Where We Can Use Digital Signage?</h4>
+          <p></p>
+          <div class="service-list">
+            <div class="service-item">
+              <figure><img src="../bfitds/assets/images/coporate-icon.svg" /></figure>
+              <div class="service-decription">
+                <h5>Where can you use Digital Signage</h5>
+                <p>
+                  Digital signage can be used in any industry verticals where
+                  you want to display content digitally on a screen.
+                </p>
+              </div>
+            </div>
+            <div class="service-item">
+              <figure><img src="../bfitds/assets/images/school-icon.svg" /></figure>
+              <div class="service-decription">
+                <h5>Corporate</h5>
+                <p>
+                  In a corporate setting, digital signage is used to display
+                  internal communications like events, corporate ads,
+                  newsletters etc, and for visitors.
+                </p>
+              </div>
+            </div>
+            <div class="service-item">
+              <figure><img src="../bfitds/assets/images/digital-icon.svg" /></figure>
+              <div class="service-decription">
+                <h5>Educational Institutions</h5>
+                <p>
+                  Schools, Colleges, Universities can use digital signage to
+                  display information about events, courses, wayfinding etc to
+                  name a few.
+                </p>
+              </div>
+            </div>
+            <div class="service-item">
+              <figure><img src="../bfitds/assets/images/healthcare-ion.svg" /></figure>
+              <div class="service-decription">
+                <h5>Healthcare</h5>
+                <p>
+                  Showing informative content to healthcare facility visitors,
+                  advertising.
+                </p>
+              </div>
+            </div>
+            <div class="service-item">
+              <figure>
+                <img src="../bfitds/assets/images/retail-shop-icon.svg" />
+              </figure>
+              <div class="service-decription">
+                <h5>Retail</h5>
+                <p>
+                  The retail industry has adopted digital signage early on, as
+                  they have seen the benefits in engaging their customers with
+                  digital signage. They use the platform to engage, inform and
+                  inspire their customers. It is proven that digital signage can
+                  enhance brand awareness.
+                </p>
+              </div>
+            </div>
+            <div class="service-item">
+              <figure>
+                <img src="../bfitds/assets/images/restaurants-icon.svg" />
+              </figure>
+              <div class="service-decription">
+                <h5>Restaurants & QSRs</h5>
+                <p>
+                  Mainly used to engage customers with enticing images of food
+                  using digital menu boards. Visualising the food increases the
+                  appetite of your customers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-product" id="product" data-anchor="product">
+        <div class="product-wrap">
+          <figure><img src="../bfitds/assets/images/howitworks-image.svg" /></figure>
+          <div class="product-description">
+            <h4>How It Works</h4>
+            <div class="service-item">
+              <h6>1. Sign up</h6>
+              <p></p>
+            </div>
+            <div class="service-item selected">
+              <h6>2. Set up your company settings</h6>
+              <p>
+                <ul class="steps">
+                  <li>Set your stores</li>
+                  <li>Set your devices</li>
+                  <li>Group your devices</li>
+                  <li>Create your folder structure</li>
+                  <li>Upload your content</li>
+                  <li>Create your playlist</li>
+                  <li>Set your schedule</li>
+                </ul>
+              </p>
+            </div>
+            <div class="service-item">
+              <h6>3. Deploy to your screens</h6>
+              <p></p>
+            </div>
+            <!-- <div class="service-item">
+              <h6>4. Share to any screen</h6>
+              <p>
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidunt ut labore et dolore magna aliquyam erat, sed diam
+                voluptua.
+              </p>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <section class="hardware" id="hardware" data-anchor="hardware">
+        <div class="container">
+          <h4>Hardware Agnostic</h4>
+          <p>
+            Our solution is hardware agnostic. Currently you can deploy using
+            our windows application or any browser.
+          </p>
+          <div class="hardware-lits">
+            <div class="hardware-lits-item">
+              <figure>
+                <img src="../bfitds/assets/images/icons8_windows_10.svg" />
+              </figure>
+              <figcaption>Windows</figcaption>
+            </div>
+            <div class="hardware-lits-item">
+              <figure>
+                <img src="../bfitds/assets/images/android-logomark.svg" />
+              </figure>
+              <figcaption>Android OS</figcaption>
+              <p>Coming Soon</p>
+            </div>
+            <div class="hardware-lits-item">
+              <figure><img src="../bfitds/assets/images/icons8_chrome.svg" /></figure>
+              <figcaption>Chrome OS</figcaption>
+            </div>
+            <div class="hardware-lits-item">
+              <figure>
+                <img src="../bfitds/assets/images/Tizen-Pinwheel-On-Light-RGB.svg" />
+              </figure>
+              <figcaption>Samsung</figcaption>
+              <p>Coming Soon</p>
+            </div>
+            <div class="hardware-lits-item">
+              <figure><img src="../bfitds/assets/images/lg-icon.svg" /></figure>
+              <figcaption>LG Web OS</figcaption>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="business">
+        <div class="container">
+          <h4>Manage your Signage from one place</h4>
+          <button id="myBtn1" class="btn-primary">Book For A Demo</button>
+        </div>
+      </section>
+      <section class="faq" id="faq" data-anchor="faq">
+        <div class="container">
+          <h4>Frequently Asked Questions</h4>
+          <div class="accordion-container">
+            <div class="set">
+              <a>
+                What type of screen should I use?
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p>
+                  Our application will work on any smart TV that has a browser.
+                  Other versions will be released soon.
+                </p>
+              </div>
+            </div>
+            <div class="set">
+              <a>
+                How do I remotely manage the content?
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p>
+                  Our admin panel lets you manage the content, playlists,
+                  schedules in one place. You can monitor the live content
+                  display as well.
+                </p>
+              </div>
+            </div>
+            <div class="set">
+              <a>
+                What is included in the 30-day trial?
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p>
+                  All functions are available for you to test during your trial
+                  period.
+                </p>
+              </div>
+            </div>
+            <div class="set">
+              <a>
+                Can I control it using my phone?
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p>
+                  Yes you can manage most of the function using a smart phone.
+                  You simply need to open up your admin URL on your phone’s
+                  browser, sign in and manage.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="set">
+              <a>
+                What type of TV should I use?
+                <i class="fa fa-plus"></i>
+              </a>
+              <div class="content">
+                <p>
+                  Donec tincidunt consectetur orci at dignissim. Proin auctor
+                  aliquam justo, vitae luctus odio pretium scelerisque.
+                </p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      
+      <footer style="background-color: #002D70;">
+        <div class="container">
+          <div class="footer-wrap">
+            <figure><img src="./assets/images/logo.svg" /></figure>
+            <div class="footer-copyright">
+              <h6>Follow Us</h6>
+              <div class="social">
+                <a href="https://www.facebook.com/bfit.aus" target="_blank"
+                  ><img src="./assets/images/icons8_facebook_circled.svg"
+                /></a>
+                <a href="https://www.instagram.com/bfit_australia/" target="_blank"
+                  ><img src="./assets/images/icons8_instagram.svg"
+                /></a>
+                <!-- <a href="#"
+                  ><img src="./assets/images/icons8_twitter_circled.svg"
+                /></a> -->
+                <a href="https://www.linkedin.com/company/bfitaustralia" target="_blank"
+                  ><img src="./assets/images/icons8_linkedin_circled.svg"
+                /></a>
+                <!-- <a href="#"
+                  ><img src="./assets/images/icons8_play_button.svg"
+                /></a> -->
+              </div>
+            </div>
+          </div>
+          <p class="text-c">
+            © 2021
+            <a target="blank" href="https://bfit.technology">BFIT Technology</a>
+            <span>|</span>All rights reserved><span>|</span
+            ><a href="http://">Privacy Policy</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section
+          class="contactus"
+          id="contact"
+          data-anchor="contact"
+          style="padding-top: 0px"
+        >
+          <div class="">
+            <div class="contact-form">
+              <h5>Book For a Demo</h5>
+              <!-- <p class="contact-tab">
+                        <span>Web & App Development</span
+                        ><span>Digital Signage</span
+                        ><span>Digital Marketing</span>
+                      </p> -->
+              <form id="frm-contact">
+                <div class="form-group">
+                  <input
+                    required
+                    id="firstName"
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name*"
+                  />
+                  <input
+                    required
+                    id="lastName"
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name*"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    required
+                    id="emailAddress"
+                    type="email"
+                    class="form-control"
+                    placeholder="Email*"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    id="phoneNumber"
+                    type="tel"
+                    class="form-control"
+                    placeholder="(+61) 5462 3254 25"
+                  />
+                </div>
+                <div class="form-group m-b-10">
+                  <textarea
+                    required
+                    id="mailBody"
+                    class="form-control"
+                    placeholder="How we can help you*"
+                  ></textarea>
+                </div>
+                <div
+                  class="form-group m-b-10 m-l-0"
+                  id="mailResponse"
+                  style="display: none"
+                >
+                  Thank you!
+                </div>
+                <div class="form-group m-b-10 m-l-0">
+                  <p>
+                    By sending this form I confirm that I have read and
+                    <br />accept bfit
+                    <a href="http://">Privacy Policy</a>
+                  </p>
+                </div>
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6Ld89BIcAAAAAAPQFycK2VDyzHCRWOi4hKkLdBJM"
+                ></div>
+                <span
+                  id="captche-err"
+                  style="color: red; padding-left: 70px"
+                ></span>
+                <button class="btn-form">Send</button>
+              </form>
+            </div>
+            <!-- <div class="contact-card">
+                      <h5>Contact</h5>
+                      <h6>Address</h6>
+                      <p>
+                        BFIT TECHNOLOGY PTY LTD<br />
+                        85 Liverpool St,<br />
+                        Hobart, 7000<br />
+                      </p>
+                      <h6>ABN : 36 651 307 541</h6>
+                      <h6>ACN : 651 307 541</h6>
+                      h6>
+
+                      <h6>Say Hello</h6>
+                      <p><a href="mailto:hello@bfit.com">hello@bfit.com</a></p>
+                    </div> -->
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+        $("body").addClass("popup-enabled");
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+        $("body").removeClass("popup-enabled");
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+          $("body").removeClass("popup-enabled");
+        }
+      };
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn1");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+        $("body").removeClass("popup-enabled");
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+        $("body").removeClass("popup-enabled");
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+          $("body").removeClass("popup-enabled");
+        }
+      };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../bfitds/assets/js/main.js"></script>
+  </body>
+</html>
